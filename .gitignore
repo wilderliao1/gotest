@@ -1,0 +1,8 @@
+
+.idea/*
+
+pkg/*
+
+src/.idea/*
+src/github.com/*
+src/golang.org/*
