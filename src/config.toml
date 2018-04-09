@@ -1,0 +1,19 @@
+[[configs]]
+    sdkappid=1400027849
+    [[configs.reports]]
+        module="ILiveSDK"
+        level="debug"
+
+    [[configs.reports]]
+    module="IMSDK"
+    level="info"
+
+[[configs]]
+    sdkappid=1400027849
+    [[configs.reports]]
+        module="ILiveSDK"
+        level="debug"
+
+    [[configs.reports]]
+    module="IMSDK"
+    level="info"
