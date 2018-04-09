@@ -3,6 +3,8 @@
 
 ### 需要下载一些第三方依赖库
 
+* 设置gotest路径为GOPATH
+
 #### 1、文件监听依赖库
 
 ` go get golang.org/x/net `
