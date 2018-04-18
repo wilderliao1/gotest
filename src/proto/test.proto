@@ -1,0 +1,27 @@
+syntax = "proto2";
+
+package txwhiteboard;
+
+message AddLine {
+    required string type            = 1;
+    required uint32 seq             = 2;
+    required AddLineContent content = 3;
+}
+
+message AddLineContent {
+    required string boardId         = 1;
+    required string uid             = 2;
+    required uint32 time            = 3;
+    required uint32 colorRGBA       = 4;
+    required int32 width            = 5;
+    required int32 scale            = 6;
+    required uint32 updateTime      = 7;
+    required bool hidden            = 8;
+    repeated Point points           = 9;
+}
+
+message Point {
+    required int32 x                = 1;
+    required int32 y                = 2;
+    required int32 seq              = 3;
+}

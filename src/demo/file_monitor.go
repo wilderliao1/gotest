@@ -1,7 +1,7 @@
 package demo
 
 import (
-	"github.com/fsnotify"
+	"github.com/fsnotify/fsnotify"
 	"fmt"
 	"log"
 )
